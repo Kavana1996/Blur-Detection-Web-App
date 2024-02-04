@@ -1,0 +1,39 @@
+{
+    "name": "blur-detection-web-app",
+    "version": "1.0.0",
+    "description": "A web application with blur detection functionality",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/your-username/blur-detection-web-app.git"
+    },
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --config webpack.config.js",
+        "lint": "eslint src"
+    },
+    "keywords": [
+        "blur",
+        "detection",
+        "web",
+        "application"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "axios": "^0.21.1",
+        "opencv4nodejs": "^5.5.1",
+        "opencv-build": "^0.1.9"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.23.9",
+        "acorn": "^8.11.3",
+        "acorn-jsx": "^5.3.2",
+        "babel-loader": "^8.2.2",
+        "eslint": "^7.32.0",
+        "webpack": "^5.47.1",
+        "webpack-cli": "^4.7.2"
+    }
+}
